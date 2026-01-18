@@ -1,0 +1,73 @@
+site_name: fnord.lol Minecraft
+site_url: https://docs.fnord.lol/mc
+site_description: Server guides and mod documentation for the fnord.lol Minecraft servers
+
+theme:
+  name: material
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: green
+      accent: lime
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: green
+      accent: lime
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.sections
+    - navigation.expand
+    - search.highlight
+    - content.code.copy
+  icon:
+    logo: material/minecraft
+
+plugins:
+  - search
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - tables
+  - attr_list
+  - md_in_html
+  - toc:
+      permalink: true
+
+nav:
+  - Home: index.md
+  - Getting Started:
+      - How to Connect: connect.md
+      - Server Rules: rules.md
+  - Servers:
+      - Overview: servers/index.md
+      - idk (Vanilla+): servers/idk.md
+      - Pixelmon: servers/pixelmon.md
+      - A Quiet Place: servers/quiet-place.md
+      - Zombie Invade: servers/zombie-invade.md
+  - Mods (idk server):
+      - Overview: mods/index.md
+      - Land Claiming (FLAN): mods/flan.md
+      - Gravestones: mods/graves.md
+      - Tree Chopping: mods/fallingtree.md
+      - Recipes (JEI): mods/jei.md
+      - Sleep Voting: mods/sleeppoll.md
+  - Tools:
+      - World Map: tools/bluemap.md
+  - FAQ: faq.md
+
+extra:
+  social:
+    - icon: fontawesome/solid/map
+      link: https://map.fnord.lol
+      name: Live World Map
