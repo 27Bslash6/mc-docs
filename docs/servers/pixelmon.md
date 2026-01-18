@@ -1,34 +1,66 @@
 # Pixelmon Server
 
-Pokémon in Minecraft! Catch, train, and battle with friends.
+<div class="hero" style="text-align: center; padding: 1em 0;">
+<img src="https://pixelmonmod.com/images/curse/1.jpg" alt="Pixelmon" style="max-width: 100%; border-radius: 8px; margin-bottom: 1em;">
+</div>
 
-## Quick Info
+> *Gotta catch 'em all... in Minecraft!*
+
+Pokémon meets Minecraft in this incredible mod. Catch, train, battle, and become a Pokémon master in a blocky world.
+
+---
+
+## :material-information-outline: Quick Info
 
 | | |
 |---|---|
-| **Version** | Minecraft 1.21.1 (NeoForge) |
-| **Address** | `pixelmon.fnord.lol` |
-| **Client Mods** | **Required** |
-| **Bedrock** | Not supported |
+| :material-minecraft: **Version** | Minecraft 1.21.1 (NeoForge) |
+| :material-server-network: **Address** | `pixelmon.fnord.lol` |
+| :material-puzzle: **Client Mods** | **Required** |
+| :material-cellphone: **Bedrock** | Not supported |
 
-## What is Pixelmon?
+---
 
-Pixelmon adds the full Pokémon experience to Minecraft:
+## :material-pokeball: What is Pixelmon?
 
-- Wild Pokémon spawn in appropriate biomes
-- Catch them with Pokéballs (craft or buy)
-- Train and level up your team
-- Battle other players
-- Gyms and NPCs throughout the world
+<div class="grid cards" markdown>
 
-## Installing the Modpack
+-   :material-pokeball:{ .lg .middle } **Catch Pokémon**
+
+    ---
+
+    1,000+ Pokémon from Gen 1-9, all with custom models and animations
+
+-   :material-sword-cross:{ .lg .middle } **Battle**
+
+    ---
+
+    Mega Evolution, Z-Moves, Dynamaxing - the full competitive experience
+
+-   :material-home-city:{ .lg .middle } **Explore**
+
+    ---
+
+    Gyms, Pokémon Centers, custom structures throughout the world
+
+-   :material-egg:{ .lg .middle } **Breed**
+
+    ---
+
+    Daycare system for hatching the perfect team
+
+</div>
+
+---
+
+## :material-download: Installing
 
 ### Prism Launcher (Recommended)
 
 1. Download [Prism Launcher](https://prismlauncher.org/download/)
 2. Click **Add Instance** → **Modrinth** tab
 3. Search for **Pixelmon**
-4. Select the version matching the server (**1.21.1**)
+4. Select version **1.21.1**
 5. Click **OK** to install
 6. Launch and connect!
 
@@ -39,19 +71,26 @@ Pixelmon adds the full Pokémon experience to Minecraft:
 3. Place the `.jar` in your `mods` folder
 4. Launch with the NeoForge profile
 
-## Connecting
+---
 
-1. Launch the Pixelmon instance from Prism Launcher
-2. Go to **Multiplayer** → **Add Server**
+## :material-connection: Connecting
+
+1. Launch Pixelmon from Prism Launcher
+2. **Multiplayer** → **Add Server**
 3. Enter: `pixelmon.fnord.lol`
-4. Join and catch 'em all!
+4. Catch 'em all!
 
-## Tips
+---
 
-- **Starter Pokémon**: You'll choose one when you first join
-- **Healing**: Find Pokémon Centers or craft a healing station
-- **Pokéballs**: Craft them with apricorns (grow from trees) or iron/stone
-- **Biomes matter**: Water Pokémon near water, fire types in deserts, etc.
+## :material-lightbulb: Tips for New Trainers
 
-!!! warning "Version Match"
-    Make sure your Pixelmon version matches the server. Ask if you're having connection issues.
+| Tip | Details |
+|-----|---------|
+| :material-pokeball: **Starter** | You'll choose your first Pokémon when you join |
+| :material-hospital: **Healing** | Find Pokémon Centers in towns, or craft a healing station |
+| :material-fruit-cherries: **Apricorns** | Grow these trees to craft Pokéballs |
+| :material-terrain: **Biomes** | Pokémon spawn in appropriate biomes - water types near water, etc. |
+| :material-sword: **Gyms** | Challenge Gym Leaders in themed towns for badges |
+
+!!! warning "Version Mismatch?"
+    Make sure your Pixelmon version matches the server. If you can't connect, ask Dad for the exact version.

@@ -1,84 +1,154 @@
 # idk Server
 
-The main survival server - vanilla Minecraft enhanced with quality-of-life mods.
+<div class="hero" style="text-align: center; padding: 2em 0;">
+<img src="https://cdn.modrinth.com/data/1KVo5zza/9f1ded4949c2a9db5ca382d3bcc912c7245486b4_96.webp" alt="Fabulously Optimized" style="width: 96px; margin-bottom: 1em;">
+<p><em>Vanilla Minecraft, enhanced.</em></p>
+</div>
 
-## Quick Info
+The main survival server - vanilla Minecraft with quality-of-life mods that make everything better without changing the core game.
+
+---
+
+## :material-information-outline: Quick Info
 
 | | |
 |---|---|
-| **Version** | Minecraft 1.21.1 (Fabric) |
-| **Address (Java)** | `mc.fnord.lol` |
-| **Address (Bedrock)** | `mc.fnord.lol` port `19132` |
-| **Client Mods** | None required (but recommended) |
-| **Difficulty** | Normal |
+| :material-minecraft: **Version** | Minecraft 1.21.1 (Fabric) |
+| :material-server-network: **Address (Java)** | `mc.fnord.lol` |
+| :material-cellphone: **Address (Bedrock)** | `mc.fnord.lol` port `19132` |
+| :material-puzzle: **Client Mods** | Optional (but recommended!) |
+| :material-sword: **Difficulty** | Normal |
 
-## Recommended Setup
+---
+
+## :material-rocket-launch: Recommended Setup
 
 For the best experience, use **Fabulously Optimized** via Prism Launcher:
 
-1. Download [Prism Launcher](https://prismlauncher.org/download/)
-2. Click **Add Instance** → **Modrinth** tab
-3. Search for **Fabulously Optimized**
-4. Select version **1.21.1**
-5. Click **OK** to install
-6. Launch and connect to `mc.fnord.lol`
+<div class="grid cards" markdown>
 
-This gives you:
+-   :material-download:{ .lg .middle } **Step 1: Get Prism Launcher**
 
-- **Much better FPS** (Sodium, Lithium, FerriteCore)
-- **Zoom** (like OptiFine) - press C
-- **Shader support** (Iris)
-- **Dynamic lights** (hold a torch, it lights up)
-- 100% vanilla-compatible
+    ---
+
+    Download [Prism Launcher](https://prismlauncher.org/download/) for your platform
+
+-   :material-plus-circle:{ .lg .middle } **Step 2: Add Instance**
+
+    ---
+
+    Click **Add Instance** → **Modrinth** tab
+
+-   :material-magnify:{ .lg .middle } **Step 3: Find Modpack**
+
+    ---
+
+    Search for **Fabulously Optimized**, select **1.21.1**
+
+-   :material-play:{ .lg .middle } **Step 4: Play!**
+
+    ---
+
+    Launch and connect to `mc.fnord.lol`
+
+</div>
+
+### What You Get
+
+| Feature | Description |
+|---------|-------------|
+| :material-speedometer: **2-3x Better FPS** | Sodium, Lithium, FerriteCore |
+| :material-magnify-plus: **Zoom** | Press C (like OptiFine) |
+| :material-palette: **Shader Support** | Iris shaders compatible |
+| :material-flashlight: **Dynamic Lights** | Hold a torch, it lights up! |
+| :material-check-circle: **100% Compatible** | Works with vanilla servers |
 
 !!! tip "Why Fabulously Optimized?"
-    Vanilla Minecraft is poorly optimized. Fabulously Optimized is a curated collection of performance mods that work together. You'll get 2-3x better FPS on most systems.
+    Vanilla Minecraft is poorly optimized. FO is a curated performance modpack that just works. You'll wonder why Mojang doesn't ship these fixes by default.
 
-## Features
+---
 
-This server runs **server-side mods** - they work even with vanilla clients!
+## :material-star: Server Features
 
-- **Land Claiming** - Protect your builds with [FLAN](../mods/flan.md)
-- **Gravestones** - Your items are safe when you die ([details](../mods/graves.md))
-- **Tree Felling** - Chop one log, fell the whole tree ([details](../mods/fallingtree.md))
-- **Recipe Viewer** - Press R to see crafting recipes ([details](../mods/jei.md))
-- **Sleep Voting** - Not everyone needs to sleep ([details](../mods/sleeppoll.md))
-- **Distant Horizons** - See terrain far beyond normal render distance
-- **World Map** - See the world at [map.fnord.lol](https://map.fnord.lol)
+These mods run **server-side** - they work even with vanilla clients!
 
-See the [full mod list](../mods/index.md) for details.
+<div class="grid cards" markdown>
 
-## Connecting
+-   :material-shield-home: **[Land Claiming](../mods/flan.md)**
 
-=== "Java (Recommended)"
+    ---
+
+    Protect your builds with FLAN. Grab a golden hoe and claim your territory.
+
+-   :material-grave-stone: **[Gravestones](../mods/graves.md)**
+
+    ---
+
+    Die? Your items stay safe in a gravestone. No more panic!
+
+-   :material-tree: **[Tree Felling](../mods/fallingtree.md)**
+
+    ---
+
+    Chop one log, the whole tree falls. Replant responsibly!
+
+-   :material-book-open-variant: **[Recipe Viewer](../mods/jei.md)**
+
+    ---
+
+    Press R on any item to see how to craft it.
+
+-   :material-bed: **[Sleep Voting](../mods/sleeppoll.md)**
+
+    ---
+
+    Not everyone needs to sleep. Vote to skip the night!
+
+-   :material-map: **[World Map](https://map.fnord.lol)**
+
+    ---
+
+    Explore in 3D at map.fnord.lol
+
+</div>
+
+See the [full mod list](../mods/index.md) for all 14 server mods.
+
+---
+
+## :material-connection: Connecting
+
+=== ":material-minecraft: Java (Recommended)"
 
     **With Fabulously Optimized:**
 
     1. Install via Prism Launcher (see above)
     2. Launch the instance
-    3. Add server: `mc.fnord.lol`
+    3. **Multiplayer** → **Add Server** → `mc.fnord.lol`
     4. Join and play!
 
     **With Vanilla:**
 
     1. Use Minecraft **1.21.1**
-    2. Add server: `mc.fnord.lol`
-    3. Join and play!
+    2. **Multiplayer** → **Add Server** → `mc.fnord.lol`
+    3. Works fine, just slower!
 
-=== "Bedrock Edition"
+=== ":material-cellphone: Bedrock"
 
-    1. Go to **Servers** → **Add Server**
+    1. **Play** → **Servers** → **Add Server**
     2. Address: `mc.fnord.lol`
     3. Port: `19132`
     4. Join and play!
 
-!!! note "Bedrock Players"
-    Your username will have a `*` prefix (e.g., `*TurboChook42`). This is normal - it's how Geyser identifies Bedrock players.
+    !!! note "Bedrock Usernames"
+        Your name will have a `*` prefix (e.g., `*TurboChook42`). This is how Geyser identifies Bedrock players.
 
-## World Map
+---
+
+## :material-map-legend: World Map
 
 Explore the world in 3D at **[map.fnord.lol](https://map.fnord.lol)**
 
-- See terrain, builds, and player locations
-- Find your death location if you're lost
-- Plan builds and exploration routes
+- :material-terrain: See terrain, builds, and player locations
+- :material-crosshairs-gps: Find your death location if you're lost
+- :material-ruler: Plan builds and exploration routes

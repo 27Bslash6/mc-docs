@@ -1,32 +1,75 @@
-# Server Overview
+# Our Servers
 
-We run four Minecraft servers, each with a different style of play.
+<div class="grid cards" markdown>
 
-## At a Glance
+-   :material-pickaxe:{ .lg .middle } **[idk](idk.md)**
 
-| Server | Version | Style | Client Mods | Bedrock |
-|--------|---------|-------|-------------|---------|
-| **idk** | 1.21.1 | Vanilla+ survival | None | Yes |
-| **Pixelmon** | 1.21.1 | Pokémon adventure | Required | No |
-| **A Quiet Place** | 1.20.1 | Horror survival | Required | No |
-| **Zombie Invade** | 1.20.1 | Zombie apocalypse | Required | No |
+    ---
 
-## Which Server Should I Choose?
+    Vanilla-enhanced survival. Server-side mods, no client install needed. Works with Bedrock!
 
-### I want vanilla Minecraft with helpful extras
-→ **[idk](idk.md)** - No mods needed, works on Bedrock too!
+    [:octicons-arrow-right-24: Connect now](idk.md)
 
-### I love Pokémon
-→ **[Pixelmon](pixelmon.md)** - Catch, train, and battle Pokémon
+-   :material-pokeball:{ .lg .middle } **[Pixelmon](pixelmon.md)**
 
-### I want to be scared
-→ **[A Quiet Place](quiet-place.md)** - Stay silent or die
+    ---
 
-### I want zombie chaos
-→ **[Zombie Invade](zombie-invade.md)** - Survive 100 days
+    Pokémon in Minecraft! Catch, train, battle. 1,000+ Pokémon from all generations.
 
-## Server Status
+    [:octicons-arrow-right-24: Gotta catch 'em all](pixelmon.md)
 
-All servers run 24/7 from Australia (Hobart timezone).
+-   :material-ghost:{ .lg .middle } **[A Quiet Place](quiet-place.md)**
 
-Check the [World Map](https://map.fnord.lol) to see who's online on idk.
+    ---
+
+    Horror survival. They hunt by sound. They can hear your microphone. Stay quiet or die.
+
+    [:octicons-arrow-right-24: If you dare](quiet-place.md)
+
+-   :material-skull:{ .lg .middle } **[Zombie Invade](zombie-invade.md)**
+
+    ---
+
+    100-day zombie apocalypse challenge. Massive hordes. Every night is deadlier.
+
+    [:octicons-arrow-right-24: Survive](zombie-invade.md)
+
+</div>
+
+---
+
+## Quick Comparison
+
+| Server | Style | Client Mods | Bedrock | Difficulty |
+|--------|-------|-------------|---------|------------|
+| **idk** | Vanilla+ survival | Optional | :material-check: Yes | Normal |
+| **Pixelmon** | Pokémon adventure | Required | :material-close: No | Easy-Medium |
+| **A Quiet Place** | Horror survival | Required | :material-close: No | Hard |
+| **Zombie Invade** | Apocalypse survival | Required | :material-close: No | Hard |
+
+---
+
+## Which Server Should I Play?
+
+```mermaid
+graph TD
+    A[What do you want?] --> B{Pokémon?}
+    B -->|Yes| C[Pixelmon]
+    B -->|No| D{Scared?}
+    D -->|Love it| E{Sound-based horror?}
+    E -->|Yes| F[A Quiet Place]
+    E -->|No| G[Zombie Invade]
+    D -->|No thanks| H{Have mods?}
+    H -->|Don't want to| I[idk - no mods needed!]
+    H -->|Sure| J{Bedrock player?}
+    J -->|Yes| I
+    J -->|No| K[Any server works]
+```
+
+---
+
+## All Servers Run 24/7
+
+Based in Australia (Hobart timezone). All servers auto-backup daily.
+
+Questions? Ask Dad.

@@ -1,54 +1,103 @@
-# A Quiet Place Server
+# A Quiet Place
 
-*Stay silent. Stay alive.*
+<div class="hero" style="text-align: center; padding: 2em 0; background: linear-gradient(180deg, #1a1a2e 0%, #16213e 100%); border-radius: 8px; margin-bottom: 1em;">
+<h2 style="color: #e94560; margin: 0; font-size: 2em;">🤫</h2>
+<p style="color: #eee; font-style: italic; margin: 0.5em 0 0 0;">Stay silent. Stay alive.</p>
+</div>
 
-A horror survival modpack based on the movie. Make noise and the Death Angels will find you.
+A horror survival modpack inspired by the movie. The Death Angels hunt by sound - every footstep, every block break, every heartbeat could be your last.
 
-## Quick Info
+!!! danger "They Can Hear Your Microphone"
+    This modpack uses **Simple Voice Chat**. The Death Angels can hear you talking. Keep quiet or pay the price.
+
+---
+
+## :material-information-outline: Quick Info
 
 | | |
 |---|---|
-| **Version** | Minecraft 1.20.1 (Forge) |
-| **Address** | `quiet.fnord.lol` |
-| **Client Mods** | **Required** |
-| **Bedrock** | Not supported |
-| **Difficulty** | Hard |
+| :material-minecraft: **Version** | Minecraft 1.20.1 (Forge) |
+| :material-server-network: **Address** | `quiet.fnord.lol` |
+| :material-puzzle: **Client Mods** | **Required** |
+| :material-skull: **Difficulty** | Hard |
+| :material-cellphone: **Bedrock** | Not supported |
 
-## What Makes This Special?
+---
 
-- **Sound mechanics** - Running, breaking blocks, and fighting makes noise
-- **Death Angels** - Blind but hunt by sound. If they hear you, run (quietly)
-- **Survival focus** - Harder resource gathering, crafting, and combat
-- **Atmosphere** - Dark, tense, and terrifying
+## :material-ghost: What Makes This Terrifying?
 
-## Installing the Modpack
+<div class="grid cards" markdown>
 
-### Prism Launcher (Recommended)
+-   :material-ear-hearing:{ .lg .middle } **Sound Mechanics**
+
+    ---
+
+    Running, breaking blocks, fighting - everything makes noise. The louder you are, the faster you die.
+
+-   :material-alien:{ .lg .middle } **Death Angels**
+
+    ---
+
+    Blind but with supernatural hearing. If they hear you, they WILL find you.
+
+-   :material-city:{ .lg .middle } **Lost Cities**
+
+    ---
+
+    Spawn in an abandoned cityscape. Scavenge, hide, survive.
+
+-   :material-microphone:{ .lg .middle } **Voice Chat Integration**
+
+    ---
+
+    They hear your real voice. Whisper or stay silent.
+
+</div>
+
+---
+
+## :material-download: Installing
+
+### Prism Launcher
 
 1. Download [Prism Launcher](https://prismlauncher.org/download/)
 2. Click **Add Instance** → **Modrinth** tab
-3. Search for **A Quiet Place** or **Death Angels**
-4. Select the **1.20.1** version
-5. Click **OK** to install
-6. Launch and connect!
+3. Search for **"A Quiet Place - Death Angels"**
+4. Select version **1.20.1**
+5. Install and launch
 
-!!! note "Modpack Name"
-    Search for "A Quiet Place - Death Angels" on Modrinth if you can't find it.
+!!! note "Can't Find It?"
+    Try searching "Death Angels Horror" on Modrinth if the full name doesn't work.
 
-## Connecting
+---
+
+## :material-connection: Connecting
 
 1. Launch the modpack from Prism Launcher
-2. Go to **Multiplayer** → **Add Server**
+2. **Multiplayer** → **Add Server**
 3. Enter: `quiet.fnord.lol`
-4. Join and stay quiet!
+4. Stay quiet...
 
-## Survival Tips
+---
 
-- **Crouch walk** - Much quieter than running
-- **Don't break blocks** near Death Angels
-- **Build underground** - Safer from detection
-- **Use signs** - Silent communication with other players
-- **Wool blocks** - Walking on wool is silent
+## :material-run-fast: Survival Guide
 
-!!! danger "Death Angels"
-    They're blind but have perfect hearing. If you hear clicking, STOP MOVING.
+### Noise Levels
+
+| Action | Noise | Risk |
+|--------|-------|------|
+| :material-walk: Walking | Low | Safe if alone |
+| :material-run: Running | **High** | Attracts attention |
+| :material-pickaxe: Mining | **Very High** | Don't do this near them |
+| :material-account-voice: Talking | **Depends** | Whisper only! |
+
+### Pro Tips
+
+- :material-shoe-sneaker: **Crouch walk** everywhere - much quieter
+- :material-arrow-down-bold: **Build underground** - safer from detection
+- :material-sign-text: **Use signs** to communicate silently
+- :material-rug: **Wool blocks** - walking on wool is silent
+- :material-heart-pulse: **Press X** to calm your heartbeat
+
+!!! danger "Clicking Sound?"
+    If you hear clicking, **STOP MOVING IMMEDIATELY**. Don't turn. Don't breathe. Wait for them to leave.
