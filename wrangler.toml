@@ -1,0 +1,22 @@
+name = "mc-docs"
+compatibility_date = "2025-11-11"
+
+# Custom domain - configure in Cloudflare dashboard after deploy
+routes = [{ pattern = "docs.fnord.lol", custom_domain = true }]
+
+# Enable preview URLs for PR testing
+preview_urls = true
+
+# Static assets only - no Worker script needed
+[assets]
+directory = "./site"
+
+[observability]
+enabled = true
+head_sampling_rate = 1
+
+[observability.logs]
+enabled = true
+head_sampling_rate = 1
+persist = true
+invocation_logs = true
