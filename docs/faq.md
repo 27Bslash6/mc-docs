@@ -53,4 +53,11 @@ The servers run in Australia. If you're far away, you might have higher ping. Tr
 
 ### How do I install mods for the modpack servers?
 
-See the individual server pages for instructions. Most use launchers like CurseForge or Modrinth.
+Use **Prism Launcher** - it's the best way to manage Minecraft modpacks:
+
+1. Download [Prism Launcher](https://prismlauncher.org/download/)
+2. Click **Add Instance** → **Modrinth** tab
+3. Search for the modpack name
+4. Install and launch!
+
+See the individual server pages for specific modpack names.

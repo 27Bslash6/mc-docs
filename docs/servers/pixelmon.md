@@ -23,23 +23,25 @@ Pixelmon adds the full Pokémon experience to Minecraft:
 
 ## Installing the Modpack
 
-### Option 1: CurseForge (Recommended)
+### Prism Launcher (Recommended)
 
-1. Download [CurseForge App](https://www.curseforge.com/download/app)
-2. Search for **Pixelmon Reforged**
-3. Click **Install**
-4. Launch from CurseForge
+1. Download [Prism Launcher](https://prismlauncher.org/download/)
+2. Click **Add Instance** → **Modrinth** tab
+3. Search for **Pixelmon**
+4. Select the version matching the server (**1.21.1**)
+5. Click **OK** to install
+6. Launch and connect!
 
-### Option 2: Manual Install
+### Manual Install
 
 1. Install [NeoForge](https://neoforged.net/) for Minecraft 1.21.1
-2. Download Pixelmon from [pixelmonmod.com](https://pixelmonmod.com/)
+2. Download Pixelmon from [Modrinth](https://modrinth.com/mod/pixelmon)
 3. Place the `.jar` in your `mods` folder
 4. Launch with the NeoForge profile
 
 ## Connecting
 
-1. Launch Minecraft through CurseForge (or with mods installed)
+1. Launch the Pixelmon instance from Prism Launcher
 2. Go to **Multiplayer** → **Add Server**
 3. Enter: `pixelmon.fnord.lol`
 4. Join and catch 'em all!

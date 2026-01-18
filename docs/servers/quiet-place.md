@@ -23,23 +23,21 @@ A horror survival modpack based on the movie. Make noise and the Death Angels wi
 
 ## Installing the Modpack
 
-### Modrinth App (Recommended)
+### Prism Launcher (Recommended)
 
-1. Download [Modrinth App](https://modrinth.com/app)
-2. Search for **A Quiet Place - Death Angels**
-3. Click **Install**
-4. Launch from Modrinth
+1. Download [Prism Launcher](https://prismlauncher.org/download/)
+2. Click **Add Instance** → **Modrinth** tab
+3. Search for **A Quiet Place** or **Death Angels**
+4. Select the **1.20.1** version
+5. Click **OK** to install
+6. Launch and connect!
 
-### CurseForge
-
-1. Download [CurseForge App](https://www.curseforge.com/download/app)
-2. Search for **A Quiet Place**
-3. Click **Install**
-4. Launch from CurseForge
+!!! note "Modpack Name"
+    Search for "A Quiet Place - Death Angels" on Modrinth if you can't find it.
 
 ## Connecting
 
-1. Launch the modpack from your launcher
+1. Launch the modpack from Prism Launcher
 2. Go to **Multiplayer** → **Add Server**
 3. Enter: `quiet.fnord.lol`
 4. Join and stay quiet!

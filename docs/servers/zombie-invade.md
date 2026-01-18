@@ -24,16 +24,21 @@ An apocalyptic survival challenge:
 
 ## Installing the Modpack
 
-### CurseForge (Recommended)
+### Prism Launcher (Recommended)
 
-1. Download [CurseForge App](https://www.curseforge.com/download/app)
-2. Search for the modpack name (ask Dad for exact name)
-3. Click **Install**
-4. Launch from CurseForge
+1. Download [Prism Launcher](https://prismlauncher.org/download/)
+2. Click **Add Instance** → **Modrinth** tab
+3. Search for the modpack name (ask Dad if unsure)
+4. Select the **1.20.1** version
+5. Click **OK** to install
+6. Launch and connect!
+
+!!! tip "Can't Find It?"
+    Some modpacks are on CurseForge only. In Prism Launcher, try the **CurseForge** tab if Modrinth doesn't have it.
 
 ## Connecting
 
-1. Launch the modpack from CurseForge
+1. Launch the modpack from Prism Launcher
 2. Go to **Multiplayer** → **Add Server**
 3. Enter: `zombie.fnord.lol`
 4. Survive!
