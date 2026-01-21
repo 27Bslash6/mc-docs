@@ -59,6 +59,7 @@ nav:
   - Home: index.md
   - Getting Started:
       - How to Connect: connect.md
+      - Request Access: request-access/index.md
       - Server Rules: rules.md
   - Servers:
       - Overview: servers/index.md

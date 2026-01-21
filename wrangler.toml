@@ -1,15 +1,29 @@
 name = "mc-docs"
+main = "worker/index.ts"
 compatibility_date = "2025-11-11"
+compatibility_flags = ["nodejs_compat"]
 
-# Custom domain - configure in Cloudflare dashboard after deploy
+# Custom domain
 routes = [{ pattern = "docs.fnord.lol", custom_domain = true }]
 
 # Enable preview URLs for PR testing
 preview_urls = true
 
-# Static assets only - no Worker script needed
+# Static assets
 [assets]
 directory = "./site"
+binding = "ASSETS"
+
+# Environment variables
+[vars]
+ADMIN_EMAIL = "fish@fnord.lol"
+NOTIFICATION_PROVIDER = "brevo"
+# Turnstile site key (public) - get from CF dashboard
+TURNSTILE_SITE_KEY = "0x4AAAAAAAd3WcMJqpMsXBUT"
+
+# Secrets (set via wrangler secret put):
+# - TURNSTILE_SECRET_KEY
+# - BREVO_API_KEY
 
 [observability]
 enabled = true
